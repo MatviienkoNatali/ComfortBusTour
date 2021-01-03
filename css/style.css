@@ -570,6 +570,9 @@ a{
 	.row p{
 		width: 100%;
 	}
+	.forma-title{
+		padding-top: 20%;
+	}
 	.footer{
 		font-size: 10px;
 	}
