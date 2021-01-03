@@ -111,7 +111,7 @@ header{
 	position: absolute;
 	right: 0;
 	top: 0;
-	padding: 60px;
+	padding: 70px 50px;
 
 }
 .menu-box .menu-item{
@@ -160,6 +160,9 @@ header{
 	color: #fff;
 	text-decoration: none;
 }
+.menu-box .menu-item{
+	font-size: 20px;
+}
 .menu-item{
 	color: #fff;
 	font-weight: 600;
@@ -180,7 +183,7 @@ header{
 
 	/****** Banner *****/
 .banner{
-	width: 50%;
+	width: 60%;
 	margin: 0 auto;
 	text-align: center;
 	color: #fff;
@@ -188,7 +191,7 @@ header{
 .banner-title{
 	font-size: 72px;
 	font-weight: 800;
-	padding-top: 120px;
+	padding-top: 180px;
 	margin-bottom: 40px;
 	text-shadow: -1px 10px 12px #222;
 	
@@ -201,6 +204,7 @@ header{
 }
 .banner-button{
 	color: #fff;
+	
 	font-size: 24px;
 	text-decoration: none;
 	padding: 20px 50px;
@@ -514,6 +518,9 @@ a{
 		font-weight: 500;
 		font-size: 12px
 	}
+	.banner-title{
+		line-height: 60px;
+	}
 	.banner-text{
 		width: 80%;
 	}
@@ -574,13 +581,17 @@ a{
 	}
 	
 	.banner-title {
-    	font-size: 36px;
+    	font-size: 50px;
+    	line-height: 55px;
 	}
 	.banner-text{
 		font-size: 16px;
 	}
 	.banner-button{
 		padding: 10px 30px;
+		position: absolute;
+		bottom: 10%;
+		left: 26%;
 	}
 	.way-block{
 		display: block;
