@@ -375,7 +375,6 @@ label{
 }
 .button{
 	border: 2px solid #fff;
-	width: 40%;
 	margin: 0 auto;
 	text-decoration: none;
 	padding: 15px 40px;
@@ -613,9 +612,8 @@ a{
 		margin-bottom: 10px;
 	}
 	.button{
-		width: 60%;
 		margin-top: 30px;
-		padding: 10px 15px;
+		padding: 15px 20px;
 	}
 	.info-title{
 		font-size: 26px;
