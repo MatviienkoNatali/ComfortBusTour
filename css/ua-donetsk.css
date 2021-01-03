@@ -81,9 +81,12 @@ tr:hover > td:last-child{
 }
 @media (max-width: 480px){
 	header{
-		background-size: 250%;
+		background-size: 300%;
 	}
 	.way-donetsk-ua{
 		font-size: 18px;
+	}
+	td{
+		padding: 7px 10px;	
 	}
 }
