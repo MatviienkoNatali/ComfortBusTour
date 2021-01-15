@@ -11,6 +11,7 @@
 </head>
 <body>
 	<header class="header">
+		<img class="header-img" src="img/banner.jpg">
 		<div class="header-box">
 			<div class="hamburger-menu">
 				<div class="flex">
@@ -18,7 +19,7 @@
 					<label class="menu__btn" for="menu-toggle">
 						<span></span>
 					</label>
-					<a class="logo" href="index.html">LOGO</a>
+					<a class="logo" href="index.html"><img src="img/logo.png" alt="logo"></a>
 					<nav class="menu-box">
 						<a class="menu-item" href="#">+380 95 000 00 00</a>
 						<a class="menu-item" href="#">+380 97 000 00 00</a>
@@ -30,7 +31,7 @@
 					<nav class=" main-menu">
 						<a class="menu-item" href="#">+380 95 000 00 00</a>
 						<a class="menu-item" href="#">+380 97 000 00 00</a>
-						<a class="logo" href="index.html">LOGO</a>
+						<a class="logo" href="index.html"><img src="img/logo.png" alt="logo"></a>
 						<a class="menu-item" href="#feedback">Заказать звонок</a>
 						<a class="menu-item" href="#forma">Забронировать</a>
 					</nav>
@@ -47,14 +48,31 @@
 		<div class="container">
 			<span class="way-title">ДОСТУПНЫЕ ПОЕЗДКИ</span>
 			<div class="way-block">
-				<a class="way-bl way-1" href="ua-donetsk.html">
+				<a class="way-bl" href="ua-donetsk.html">
+					<img class="way-img" src="img/donetsk.jpg">
 					<span>Украина - Донецк</span>
 				</a>
+				<a class="way-bl"href="#">
+					<img class="way-img" src="img/Poland.jpg">
+					<span>Украина - Польша</span>
+				</a>
+				<a class="way-bl"href="#">
+					<img class="way-img" src="img/Poland.jpg">
+					<span>Украина - Польша</span>
+				</a>
+					<a class="way-bl" href="ua-donetsk.html">
+					<img class="way-img" src="img/donetsk.jpg">
+					<span>Украина - Донецк</span>
+				</a>
+				<a class="way-bl"href="#">
+					<img class="way-img" src="img/Poland.jpg">
+					<span>Украина - Польша</span>
+				</a>
 				<a class="way-bl way-2"href="#">
+					<img class="way-img" src="img/Poland.jpg">
 					<span>Украина - Польша</span>
 				</a>
 			</div>
-			
 		</div>
 	</section>
 	<section id="forma" class="forma">
@@ -63,7 +81,7 @@
 				<span class="forma-title">ЗАБРОНИРОВАТЬ</span>
 				<form class="forma-send" action="#">
 					<div class="flex-row">
-						<div class="flex-column">
+						<div class="flex-column first-flex">
 							<label>Откуда</label>
 							<select  name="hero[]">
 								<option selected="selected">---</option>
@@ -79,7 +97,8 @@
 							</select>
 							
 						</div>
-						<div class="flex-column">
+						<a class="flex-column" href="#"><i class="fa fa-refresh  fa-2x "></i><span class="sr-only">Загрузка...</span></a>
+						<div class="flex-column first-flex">
 							<label>Куда</label>
 							<select  name="hero[]">
 								<option selected="selected">---</option>
@@ -196,6 +215,8 @@
 			</div>
 		</div>
 	</footer>
-
+<script type="text/javascript" src="js/jquery/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="js/jquery/jquery.spincrement.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
